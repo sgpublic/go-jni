@@ -67,7 +67,7 @@ import "C"
 import (
 	"fmt"
 
-	"github.com/ClarkGuan/jni"
+	"github.com/sgpublic/go-jni"
 )
 
 //export jniOnLoad
@@ -95,7 +95,7 @@ func jni_com_demo_stringFromJNI2(env uintptr, clazz uintptr) uintptr {
 运行下面命令
 
 ```
-go get github.com/ClarkGuan/jni@latest
+go get github.com/sgpublic/go-jni@latest
 ```
 
 将本 golang 库引入到 `go.mod` 文件中。

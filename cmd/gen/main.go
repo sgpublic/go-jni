@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/ClarkGuan/jni/tool"
+	"github.com/sgpublic/go-jni/tool"
 )
 
 func main() {

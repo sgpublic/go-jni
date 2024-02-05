@@ -559,6 +559,6 @@ const headerCode = `
 	jobjectRefType (JNICALL *GetObjectRefType)
 		(JNIEnv* env, jobject obj);
 
-    jobject (JNICALL *GetModule)
-       (JNIEnv* env, jclass clazz);
+    //jobject (JNICALL *GetModule)
+    //   (JNIEnv* env, jclass clazz);
 `
